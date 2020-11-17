@@ -1,3 +1,5 @@
+//Version 1.10
+
 #include <iostream>
 #include <bitset>
 #include <bits/stdc++.h>
@@ -208,8 +210,8 @@ class DAC
             a[27]='0';
             a[28]='0';
             a[29]='0';
-            a[30]='0';    //D01
-            a[31]='1';    //D00h
+            a[30]='0';    //D1
+            a[31]='1';    //D0
 //            a[32]='\n';
 
             bitset<32> bset1;
